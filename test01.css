@@ -1,0 +1,40 @@
+* { 
+    margin: 0;
+    padding: 0;
+}
+ header{
+    background-color: rgb(84, 89, 89);
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    padding: 0 20px;
+  }
+  h1{  
+
+ }
+  ul{ 
+    direction: flex;
+    gap: 20px;
+ }
+    li{
+        list-style: none;
+    }
+    main{
+         background-color: rgb(235, 5, 5);
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         height: 100vh;
+      }   
+      img{
+         width: 200px;
+         height: 200px;
+         border-radius: 50%;
+
+     } 
+
+     p{
+         width: 40%;
+        }
